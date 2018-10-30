@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <recycler.lzp.com.quickreturnlistview.test.FloatHeaderAndFooterRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/float_header"
+        layout="@layout/float_header" />
+
+    <include
+        android:id="@+id/float_footer"
+        layout="@layout/float_footer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom" />
+
+</FrameLayout>
