@@ -1,1 +1,1 @@
-include ':app', ':okhttp', ':kotlin', ':koltin', ':turntable', ':dynamicproxy', ':relativelayout', ':clippadding', ':myapplication', ':readlayout', ':anim', ':rxjavastudy', ':quickreturnlistview'
+include ':app', ':okhttp', ':kotlin', ':koltin', ':turntable', ':dynamicproxy', ':relativelayout', ':clippadding', ':myapplication', ':readlayout', ':anim', ':rxjavastudy', ':quickreturnlistview', ':antiemulator', ':viewpager', ':nestedscroll', ':pagersnaphelper'
