@@ -8,6 +8,7 @@ import android.support.v7.widget.PagerSnapHelper
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 

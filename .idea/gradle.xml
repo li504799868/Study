@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/anim" />
+            <option value="$PROJECT_DIR$/animatorselector" />
             <option value="$PROJECT_DIR$/antiemulator" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/clippadding" />
@@ -21,6 +22,7 @@
             <option value="$PROJECT_DIR$/pagersnaphelper" />
             <option value="$PROJECT_DIR$/quickreturnlistview" />
             <option value="$PROJECT_DIR$/readlayout" />
+            <option value="$PROJECT_DIR$/reflect" />
             <option value="$PROJECT_DIR$/relativelayout" />
             <option value="$PROJECT_DIR$/rxjavastudy" />
             <option value="$PROJECT_DIR$/turntable" />

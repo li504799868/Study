@@ -1,7 +1,14 @@
 package hook.lzp.com.viewpager;
 
+import android.support.annotation.IntDef;
 import android.support.v4.view.ViewPager;
 import android.view.View;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 public class DepthPageTransformer implements ViewPager.PageTransformer {
     private static final float MIN_SCALE = 0.75f;
