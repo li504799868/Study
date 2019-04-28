@@ -1,5 +1,8 @@
 package com.example.johnanna.study;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -43,5 +46,13 @@ public class MainActivity extends AppCompatActivity {
 //
 //        getApplication();
 //        getApplicationContext();
+
+        SharedPreferences sharedPreferences = getSharedPreferences("test", Context.MODE_PRIVATE);
+        sharedPreferences.edit().apply();
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
     }
 }

@@ -8,11 +8,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activity" />
             <option value="$PROJECT_DIR$/anim" />
             <option value="$PROJECT_DIR$/animatorselector" />
             <option value="$PROJECT_DIR$/antiemulator" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/clippadding" />
+            <option value="$PROJECT_DIR$/dagger2" />
             <option value="$PROJECT_DIR$/dynamicproxy" />
             <option value="$PROJECT_DIR$/koltin" />
             <option value="$PROJECT_DIR$/kotlin" />

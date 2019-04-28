@@ -81,6 +81,6 @@ public class ExampleUnitTest {
         int i = 100;
         System.out.println(i);
         Integer i2 = new Integer(127);
-        System.out.println(i2.);
+        System.out.println(i2);
     }
 }
