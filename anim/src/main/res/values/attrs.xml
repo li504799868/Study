@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CheckedAndChangeShapeFrameLayout">
+        <attr name="checkedColor" format="color" />
+        <attr name="normalColor" format="color" />
+        <attr name="android:checked" />
+        <attr name="open" format="boolean" />
+        <attr name="closeGravity" format="enum">
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
