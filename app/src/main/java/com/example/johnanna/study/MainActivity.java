@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences sharedPreferences = getSharedPreferences("test", Context.MODE_PRIVATE);
         sharedPreferences.edit().apply();
+
+        startActivity();
     }
 
     @Override

@@ -2,7 +2,9 @@ package com.example.johnanna.study;
 
 import org.junit.Test;
 
+import java.time.temporal.Temporal;
 import java.util.Date;
+import java.util.LinkedList;
 
 /**
  * Created by li.zhipeng on 2019/4/22.
@@ -121,6 +123,43 @@ public class AlgorithmTest {
         quickSort(data, start, i - 1);
         quickSort(data, j + 1, end);
 
+    }
+
+    @Test
+    public void reverseLinkedList(){
+        Node C = new Node("C", null);
+        Node B = new Node("B", C);
+        Node A = new Node("A", B);
+
+        Node node = A;
+        Node pre = null;
+        while (node != null){
+            // 得到下一个节点，等待遍历
+            Node next = node.next;
+            // 当前节点指向上一个节点
+            node.next = pre;
+            // 备份当前节点
+            pre = node;
+            // 遍历下一个节点
+            node = next;
+
+        }
+
+        node = C;
+        while (node != null){
+            System.out.println(node.value);
+            node = node.next;
+        }
+    }
+
+    private class Node{
+        String value;
+        Node next;
+
+        Node(String value, Node next){
+            this.value = value;
+            this.next = next;
+        }
     }
 
 }
